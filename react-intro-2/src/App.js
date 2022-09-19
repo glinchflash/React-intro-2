@@ -1,13 +1,15 @@
 import './App.css';
-import Inputfield from "./components/Inputfield";
+import InputForm from "./components/InputForm";
 import ToDo from "./components/ToDo";
 import Header from "./components/Header";
 
 function App() {
+
+
   return (
     <div className="App">
         <Header/>
-        <Inputfield/>
+        {/*<InputForm/>*/}
         <ToDo/>
     </div>
   );
