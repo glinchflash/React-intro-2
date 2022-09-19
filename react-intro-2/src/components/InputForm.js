@@ -1,5 +1,5 @@
 import React, {useRef} from "react";
-
+const LSKEY = "MyTodoApp";
 
 export default function InputForm(props) {
     const inputRef = useRef();
@@ -10,8 +10,6 @@ export default function InputForm(props) {
         console.log(input.value);
         props.addTodo(input.value);
     }
-
-
 
         return (
             <div>
